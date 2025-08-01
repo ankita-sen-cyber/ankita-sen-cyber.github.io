@@ -1,0 +1,34 @@
+// 
+// Sections
+// 
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; // Center content horizontally
+    padding: 6rem 1.5rem;
+    max-width: 75rem;
+    margin: 0 auto; // Center section within the page
+    background-color: #f9f9f9; // Soft background (optional for visual separation)
+    border-radius: 1rem; // Slightly rounded corners
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); // Subtle depth
+    transition: all 0.3s ease; // Smooth visual changes
+
+    .resume-section-content {
+        width: 100%;
+        max-width: 60rem; // Prevent overly wide content
+    }
+}
+
+@include media-breakpoint-up(md) {
+    section.resume-section {
+        min-height: 100vh;
+        padding: 6rem 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    section.resume-section {
+        padding: 6rem 3rem;
+    }
+}

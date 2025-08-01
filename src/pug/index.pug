@@ -1,0 +1,370 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume 
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Ankita Sen
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#publications') Publications
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Ankita  
+                        span.text-primary Sen
+                    .subheading.mb-5
+                        | Hans-Sachs-Ring 5 507, Neckarau-west, Mannheim 68199, Germany  · 
+                    p.lead.mb-5
+                        | I am a master's student in Electrical Engineering at the University of Stuttgart, I have been an exchange student at the Tokyo Institute of Technology. I am passionate about Machine learning, Deep learning, Computer Vision, and AI, aiming to conduct research that advances these fields.
+                    .social-icons
+                        a.social-icon(href='mailto:ms.ankitasen@gmail.com')
+                            i.fa.fa-envelope
+                        a.social-icon(href='https://www.linkedin.com/in/ankita-sen-185955146/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/ankita-sen-cyber')
+                            i.fab.fa-github
+                        a.social-icon(href='https://www.kaggle.com/ankitasen')
+                            i.fab.fa-kaggle
+                        a.social-icon(href='https://www.researchgate.net/profile/Ankita-Sen-10?ev=hdr_xprf')
+                            i.fab.fa-researchgate 
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Internship
+                            .subheading.mb-3 ABB PCPRD, Mannheim, Germany
+                            p
+                                | Exploration of the use of Agentic AI in the process industry through the development of innovative concepts, analysis of use cases, and evaluation of the potential of agent-based AI systems to optimize industrial processes.
+                        .flex-shrink-0
+                            span.text-primary May 2025 - Current
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University Research Assistant
+                            .subheading.mb-3 VISUS (Visualization Research Center), University of Stuttgart, Germany
+                            p
+                                | Developing a visual analytics system for the SciVis 2025 Contest by implementing core features, analyzing datasets, and refining visualizations for enhanced usability.
+                        .flex-shrink-0
+                            span.text-primary February 2025 - May 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University Research Assistant
+                            .subheading.mb-3 Institute of Space Systems (IRS), University of Stuttgart, Germany
+                            p
+                                | Detailed Design and Performance Evaluation of the ROMEO Satellite Power System Through Simulation using Simulink, Including Power Efficiency Estimation with an Integrated MPPT Algorithm
+                        .flex-shrink-0
+                            span.text-primary January 2024 - June 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 University Research Assistant 
+                            .subheading.mb-3 Institute of Space Systems (IRS), University of Stuttgart, Germany
+                            p
+                                | Responsible for the GUI frontend (Angular) of the satellite operating system and also working on the SW architecture, development, and implementation.
+                        .flex-shrink-0
+                            span.text-primary November 2022 - July 2023
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Application Developer
+                            .subheading.mb-3 IBM India Private Limited, Mumbai, India
+                            p
+                                | • Developing Applications for Financial Clients (ICICI Bank).
+                            p     • Developing an Interface that enables financial clients to smooth the onboarding of their corporate customers and facilitates transactions both offline and online through various payment modes.
+                            p     • Script Development for checking integration server health.
+                        .flex-shrink-0
+                            span.text-primary November 2020 - Feb 2022
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Research Intern
+                            .subheading.mb-3 Advance Training Development Centre, Indian Institute of Technology (IIT), Kharagpur, India
+                            p
+                                | • MATLAB modelling of Electric vehicles for Performance Analysis and plotting the characteristic curve under various conditions.
+                            p     • Designing the feedback loop system that detects the change in acceleration and deceleration and changing the machine from generating to motoring mode and vice versa.
+                        .flex-shrink-0
+                            span.text-primary December 2018
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            img(src="/assets/img/uni-stuttgart-logo.png", alt="Uni Stuttgart Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 University of Stuttgart (Germany)
+                            .subheading.mb-3 Master of Science (M. Sc) in Electrical Engineering
+                            div Major: Smart Systems
+                            p Grade: 1,9 (on German Scale) Ranked as top 6 in Department
+                        .flex-shrink-0
+                            span.text-primary October 2022 - Current
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            img(src="/assets/img/tit-logo.png", alt="TIT Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 Tokyo Institute of Technology (Japan)
+                            .subheading.mb-3 ACAP (Academic Course Access Program) Exchange Student (M.Sc)
+                            div Courses: Machine Learning for Innovation, Data Analytics to Machine Learning, Computer Vision, Advanced AI
+                            div Department: Mathematical and Computing Science, School of Computing
+
+                        .flex-shrink-0
+                            span.text-primary April 2024 - August 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            img(src="/assets/img/nits-logo.png", alt="NITS Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 National Institute of Technology (NIT), Silchar (India)
+                            .subheading.mb-3 Bachelor of Technology (B. Tech) in Electrical Engineering
+                            div Bachelor Thesis: MPPT Charge controller under Partial Shading Conditions
+                            p Grade: 8,74/10 (On a scale of 1-10, 10 is the highest grade)
+                        .flex-shrink-0
+                            span.text-primary July 2016 - May 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Kendriya Vidyalaya Namrup, Assam (India)
+                            .subheading.mb-3 All India Senior School Certificate Examination
+                            p Grade: 94,6% (On a scale of 1-100%, 100% is the highest grade)
+                        .flex-shrink-0
+                            span.text-primary April 2015 - March 2016
+
+            hr.m-0
+
+            // Publications
+            section#publications.resume-section
+                .resume-section-content
+                    h2.mb-5 Publications
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            img(src="/assets/img/ieee-logo.jpeg", alt="IEEE Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 A Novel Curve Scanning Based Maximum Power Point Tracking Algorithm Under Partial Shading Conditions
+
+                            p.mb-1
+                                | A. Sen, S. Pradhan and A. Kumar, "A Novel Curve Scanning Based Maximum Power Point Tracking Algorithm Under Partial Shading Conditions," 2020 IEEE First International Conference on Smart Technologies for Power, Energy and Control (STPEC), Nagpur, India, 2020, pp. 1-6, doi: 10.1109/STPEC49749.2020.9297794. keywords: {Photovoltaic systems;Switches;Maximum power point trackers;DC-DC power converters;Classification algorithms;Tracking loops;Tracking;Maximum Power Point (MPP);Global Maximum Power Point (GMPP);Local Maximum Power Point (LMPP);Partial Shading Condition (PSC);Uniform Irradiance Condition (UIC);Photovoltaic (PV)},
+                           
+                            p   
+                                | DOI: 
+                                a(href="https://doi.org/10.1109/STPEC49749.2020.9297794", target="_blank") 10.1109/STPEC49749.2020.9297794
+                            p.mt-3
+                                | This paper presents a novel curve scanning based Maximum Power Point Tracking (MPPT) algorithm for photovoltaic systems under Partial Shading Conditions (PSC). The proposed algorithm is designed to efficiently track both Global Maximum Power Point (GMPP) and Local Maximum Power Point (LMPP) under varying irradiance conditions, ensuring optimal energy extraction from PV systems.
+                        
+                            
+                            p.mt-2.text-muted
+                            small
+                                | Keywords: Photovoltaic systems, MPPT, DC-DC converters, Classification algorithms, Tracking loops, Global Maximum Power Point (GMPP), Partial Shading Condition (PSC)
+
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            img(src="/assets/img/fraunhofer-logo.png", alt="Fraunhofer Logo", style="max-height: 50px; margin-bottom: 0.5rem;")
+                            img(src="/assets/img/femtec-logo.png", alt="Femtec Logo", style="max-height: 50px; margin-bottom: 0.5rem;")
+                            h3.mb-0 Operations and Maintenance of Offshore Wind Turbines (Innovation Lab)
+                            .subheading.mb-3 Fraunhofer x Femtec
+                            div Contributing to the Operation and Maintenance work package at Fraunhofer's Femtec Innovation Lab, leveraging satellite and AI technologies to enhance predictive maintenance of offshore wind turbines.
+                            p.mt-2.text-muted
+                                | Supervisor: Julia Walgern (Group Manager Technical Reliability)
+                        .flex-shrink-0
+                            span.text-primary March 2025 - July 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+    
+                            img(src="/assets/img/uni-stuttgart-logo.png", alt="Uni Stuttgart Logo", style="max-height: 50px; margin-bottom: 0.5rem;")
+                            img(src="/assets/img/UHK-logo.png", alt="UHK Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            
+                            img(src="/assets/img/iss-logo.png", alt="ISS Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 Research Project on MRI motion artifact detection using Self supervised Contrastive learning
+                            .subheading.mb-3 Universität Stuttgart x Universitätsklinikum Tübingen
+                            div Research project on deep learning-based motion artifact detection and segmentation in brain MRI images using selfsupervised contrastive learning. The approach employs a modified Swin UNet architecture integrated with pretext tasks to improve artifact detection and segmentation, enhancing the reliability and accuracy of brain MRI diagnostics
+                            p.mt-2.text-muted
+                                | Examiner and Supervisor: Prof. Dr. Bin Yang, Veronica Ecker MSc.
+
+                        .flex-shrink-0
+                            span.text-primary December 2024 - May 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            img(src="/assets/img/nits-logo.png", alt="NITS Logo", style="max-height: 60px; margin-bottom: 0.5rem;")
+                            h3.mb-0 Maximum Power Point Tracking based Charge Controller (Bachelor Thesis)
+                            .subheading.mb-3 National Institute of Technology (NIT), Silchar, India
+                            div Based on the Curve Scanning MPPT Algorithm under Partial shading conditions (PSC) to optimise the power extraction from PV panels for variable loads at Global Maximum Power Point (GMPP).
+                            p.mt-2.text-muted
+                                | Examiner and Supervisor: Dr. Amritesh Kumar
+                        .flex-shrink-0
+                            span.text-primary Feb 2019 - Feb 2020
+
+            hr.m-0
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                           i.fas.fa-database
+                        li.list-inline-item
+                            i.fas.fa-brain
+                        li.list-inline-item
+                            i.fas.fa-network-wired
+                        li.list-inline-item
+                            i.fas.fa-robot
+                        li.list-inline-item
+                            i.fas.fa-dharmachakra
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-github
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.fab.fa-wordpress
+                        li.list-inline-item
+                            i.fab.fa-gulp
+                        li.list-inline-item
+                            i.fab.fa-grunt
+                        li.list-inline-item
+                            i.fab.fa-npm
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Mobile-First, Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Browser Testing & Debugging
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    p.mb-0
+                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+            hr.m-0
+
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Google Analytics Certified Developer
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Mobile Web Specialist - Google Certification
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 2
+                            sup nd 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - James Buchanan High School - Hackathon 2006
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 3
+                            sup rd 
+                            | Place - James Buchanan High School - Hackathon 2005
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')

@@ -19,6 +19,13 @@ section.resume-section {
         max-width: 60rem; // Prevent overly wide content
     }
 }
+.award-title {
+    display: block;
+    font-size: 1.1rem; // slightly bigger than p
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    text-transform: none; // optional: remove uppercase if set elsewhere
+}
 
 @include media-breakpoint-up(md) {
     section.resume-section {

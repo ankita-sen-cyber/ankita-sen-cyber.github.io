@@ -54,6 +54,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#achievements') Achievements
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#blog', target='_blog') Blog
 
         // Page Content
         .container-fluid.p-0
@@ -377,7 +379,35 @@ html(lang='en')
                             span.award-title Top 4 speaker in 26th Youth Parliament Competition, Indian parliament, New Delhi, India
                             p 
                             | Received an award from Honourable Prakash Javadekar (Human Resource and Development Minister of India)
-                        
+            
+            // Blog
+            section#blog.resume-section
+                .resume-section-content
+                    h2.mb-5 Blog
+                    p
+                        | I regularly write blogs sharing my experiences, insights on machine learning, AI, and my academic journey.
+                    ul
+                        li
+                            a(href='https://medium.com/@ms.ankitasen/my-exchange-journey-at-tokyo-institute-of-technology-6b2e9f737108', target='_blank') 
+                                img.blog-thumb(src='https://media.licdn.com/dms/image/sync/v2/D4E27AQEhM590DdHMhg/articleshare-shrink_480/articleshare-shrink_480/0/1725978617825?e=1755435600&v=beta&t=gamPcQoAXeb9_lLk1vvEECcHK-yT-Pcj5FojqOF8YaM', alt='Blog Thumbnail') 
+                                div Experience of an Exchange Semester in Tokyo Institute of Technology
+                                hr
+                        li
+                            a(href='https://www.usus.uni-stuttgart.de/en/blog/femtec/', target='_blank') 
+                                img.blog-thumb(src='https://media.licdn.com/dms/image/sync/v2/D4E27AQFZSqKRiEqRBw/articleshare-shrink_480/articleshare-shrink_480/0/1729860243423?e=1755435600&v=beta&t=F5fAf_sVowZe3-TPk296AV_vO4zzz4mlqls0Y48gHQQ', alt='Blog Thumbnail') 
+                                div My Femtec Journey: From STEM Student to Career Growth
+                                hr
+                        li
+                            a(href='https://www.usus.uni-stuttgart.de/en/blog/translation/', target='_blank') 
+                                img.blog-thumb(src='https://www.usus.uni-stuttgart.de/img/2023/11.png?__scale=w:220,h:220,cx:0,cy:135,cw:1080,ch:1080', alt='Blog Thumbnail') 
+                                div Lost in Translation
+                                hr
+                        li
+                            a(href='https://www.usus.uni-stuttgart.de/en/blog/how-to-apply-for-hiwi-positions/', target='_blank') 
+                                img.blog-thumb(src='https://www.usus.uni-stuttgart.de/img/2025/USUS-Apply-Hiwi-Intro.png?__scale=w:220,h:220,cx:76,cy:0,cw:788,ch:788', alt='Blog Thumbnail') 
+                                div How to apply for HiWi positions
+                                hr
+
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
 
